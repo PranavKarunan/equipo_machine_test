@@ -1,0 +1,19 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-left: 0.5rem;
+  background-color: rgb(3, 169, 252);
+  font-size: 2rem;
+  padding: 0.7rem;
+  margin-top: 0;
+}
+.sidebar_menu {
+  display: flex;
+  gap: 1.5rem;
+  color: white;
+}
+.sidebar_icon {
+  display: flex;
+}
+    

@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  top: 0.5rem;
+  margin-left: 0.5rem;
+  height: 2rem;
+}
+
+.left_navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.menu {
+  color: white;
+  background-color: rgb(3, 169, 252);
+  padding: 0.7rem;
+}
+
+.search {
+  display: flex;
+  border: 1px solid;
+  margin-top: 0.3rem;
+  border-radius: 4rem;
+  align-items: center;
+}
+.search_icon {
+  padding: 0.6rem;
+}
+.search_input input {
+  border: none;
+  height: 2rem;
+}
+
+.search_close {
+    padding: 0.6rem;
+    font-size: 1.5rem;
+}
