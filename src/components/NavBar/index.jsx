@@ -3,7 +3,7 @@ import { VscThreeBars } from "react-icons/vsc";
 import "./style.css";
 import { BiSearch } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import {AiOutlineClose} from 'react-icons/ai'
+import { AiOutlineClose, AiOutlinePlus } from "react-icons/ai";
 const NavBar = ({ showTitle, setShowTitle }) => {
   return (
     <div className="navbar">
@@ -17,13 +17,28 @@ const NavBar = ({ showTitle, setShowTitle }) => {
             <MdKeyboardArrowDown />
           </div>
           <div className="search_input">
-            <input />
+            <input
+              className="adv_search"
+              type="text"
+              name=""
+              id=""
+              placeholder="Last Name /First Name"
+            />
           </div>
           <div className="search_close">
             <AiOutlineClose />
           </div>
         </div>
-        <div className="navbar_left_menu"></div>
+        <div className="navbar_left_menu">
+          <div className="child">
+            <BiSearch />
+            <h4>Advanced Search</h4>
+          </div>
+          <div className="child">
+            <AiOutlinePlus />
+            <h4>Patient</h4>
+          </div>
+        </div>
       </div>
       <div className="right_navbar"></div>
     </div>

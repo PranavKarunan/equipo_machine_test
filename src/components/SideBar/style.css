@@ -5,15 +5,17 @@
   margin-left: 0.5rem;
   background-color: rgb(3, 169, 252);
   font-size: 2rem;
+  padding-top: 0.5rem;
   padding: 0.7rem;
-  margin-top: 0;
+  margin-top: 1.3rem;
 }
 .sidebar_menu {
   display: flex;
   gap: 1.5rem;
   color: white;
+
 }
 .sidebar_icon {
   display: flex;
+  cursor: pointer;
 }
-    

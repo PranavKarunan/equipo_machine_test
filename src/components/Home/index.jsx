@@ -6,11 +6,18 @@ import {
   BsPencil,
   BsThreeDotsVertical,
   BsGenderMale,
+  BsBriefcaseFill,
 } from "react-icons/bs";
-import { AiOutlinePlus, AiFillPlusCircle } from "react-icons/ai";
+import {
+  AiOutlinePlus,
+  AiFillPlusCircle,
+  AiOutlineLeft,
+  AiOutlineRight,
+} from "react-icons/ai";
 import { FaGlobeAmericas, FaSuitcase, FaRegIdCard } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { CgToolbox } from "react-icons/cg";
+import Grid from "./Grid";
 function Home() {
   return (
     <div className="home">
@@ -147,19 +154,42 @@ function Home() {
           </div>
         </div>
         <div className="home_top_right">
-          <div className="home_top_right_top">
-            <div className="home_top_right_top_left">
-              <CgToolbox className="icon" />
-              <span>Recent Activity :</span>
+          <div className="home_top_right_container">
+            <div className="home_top_right_">
+              <div className="home_top_right_top_left">
+                <BsBriefcaseFill className="icon" />
+                <span>Recent Activity :</span>
+              </div>
+              <div className="home_top_right_top_right">
+                <AiFillPlusCircle className="icon" />
+              </div>
             </div>
-            <div className="home_top_right_top_right">
-              <AiFillPlusCircle className="icon" />
+            <p>Follow up</p>
+          </div>
+          <div className="home_top_right_container">
+            <div className="home_top_right_">
+              <div className="home_top_right_top_left">
+                <BsBriefcaseFill className="icon" />
+                <span>Recent Activity :</span>
+              </div>
+              <div className="home_top_right_top_right">
+                <AiFillPlusCircle className="icon" />
+              </div>
+            </div>
+            <div className="home_top_right_top_right_menu">
+              <AiOutlineLeft className="icon2" />
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <AiOutlineRight className="icon2" />
             </div>
           </div>
-          <div className="home_top_right_bottom"></div>
         </div>
       </div>
-      <div className="home_bottom"></div>
+      <div className="home_bottom">
+        <Grid />
+      </div>
     </div>
   );
 }

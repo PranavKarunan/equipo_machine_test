@@ -2,10 +2,13 @@ import React from "react";
 import { IoSpeedometer } from "react-icons/io5";
 import { GoPerson } from "react-icons/go";
 import { HiUserGroup } from "react-icons/hi";
-import { BsShieldShaded } from "react-icons/bs";
 import { FaAmbulance, FaBriefcaseMedical } from "react-icons/fa";
 import { RiTodoLine } from "react-icons/ri";
-import { BsThermometerHalf } from "react-icons/bs";
+import {
+  BsThermometerHalf,
+  BsBriefcaseFill,
+  BsShieldShaded,
+} from "react-icons/bs";
 import { MdPermContactCalendar } from "react-icons/md";
 
 export const data = [
@@ -46,7 +49,7 @@ export const data = [
     title: "Menu",
   },
   {
-    icon: <FaBriefcaseMedical />,
+    icon: <BsBriefcaseFill />,
     title: "Menu",
   },
 ];
